@@ -6,8 +6,44 @@
     margin: 0 16px;
 
     img {
-      max-height: 100px;
-      max-width: 200px;
+      max-height: 170px;
+      max-width: 250px;
+      height: 150px;
+      width: 220px;
     }
+  }
+
+  .arrow-left,
+  .arrow-right {
+    opacity: 0;
+  }
+}
+
+.card-container:hover {
+  .arrow-left {
+    position: absolute;
+    font-size: 80px;
+    cursor: pointer;
+    z-index: 2;
+    top: 30%;
+    left: 5%;
+    color: rgba(50, 49, 49, 0.909);
+    opacity: 1;
+  }
+
+  .arrow-left:hover,
+  .arrow-right:hover {
+    color: #ff3d67;
+  }
+
+  .arrow-right {
+    position: absolute;
+    font-size: 80px;
+    cursor: pointer;
+    z-index: 2;
+    top: 30%;
+    right: 5%;
+    color: rgba(50, 49, 49, 0.909);
+    opacity: 1;
   }
 }
