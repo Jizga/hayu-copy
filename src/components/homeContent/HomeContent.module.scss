@@ -1,5 +1,8 @@
+@import '../../themes/GlobalTheme.scss';
+
 .container {
-  background-color: #ffffff;
+  background-color: $hayuWhite;
+  border-radius: 20px;
 
   .carousel {
     padding: 0.5rem;

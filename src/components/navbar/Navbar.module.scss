@@ -1,5 +1,7 @@
+@import "../../themes/GlobalTheme.scss";
+
 .nav {
-  background-color: #ffffff;
+  background-color: $hayuWhite;
   height: 110px;
   padding: 0px 6.66%;
   align-items: center;
@@ -15,7 +17,23 @@
     align-items: center;
 
     .btn {
-      margin: 0 1rem;
+      margin: 0 2rem;
+      cursor: pointer;
+      color: $hayuGray;
+    }
+
+    .sign-in-btn {
+      margin: 0 1.5rem;
+      padding: 1rem;
+      background-color: $hayuPink;
+      color: $hayuWhite;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+
+      span {
+        margin: 0 0.5rem;
+      }
     }
   }
 }

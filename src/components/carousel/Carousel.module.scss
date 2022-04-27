@@ -1,6 +1,10 @@
+@import "../../themes/GlobalTheme.scss";
+
 .card-container {
   display: flex;
   justify-content: space-between;
+  position: relative;
+
 
   .card {
     margin: 0 16px;
@@ -13,13 +17,6 @@
     }
   }
 
-  .arrow-left,
-  .arrow-right {
-    opacity: 0;
-  }
-}
-
-.card-container:hover {
   .arrow-left {
     position: absolute;
     font-size: 80px;
@@ -27,13 +24,8 @@
     z-index: 2;
     top: 30%;
     left: 5%;
-    color: rgba(50, 49, 49, 0.909);
-    opacity: 1;
-  }
-
-  .arrow-left:hover,
-  .arrow-right:hover {
-    color: #ff3d67;
+    color: $hayuGray;
+    opacity: 0;
   }
 
   .arrow-right {
@@ -43,7 +35,19 @@
     z-index: 2;
     top: 30%;
     right: 5%;
-    color: rgba(50, 49, 49, 0.909);
+    color: $hayuGray;
+    opacity: 0;
+  }
+}
+
+.card-container:hover {
+  .arrow-left,
+  .arrow-right {
     opacity: 1;
+  }
+
+  .arrow-left:hover,
+  .arrow-right:hover {
+    color: $hayuPink;
   }
 }
