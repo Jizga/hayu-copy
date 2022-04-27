@@ -1,0 +1,21 @@
+.nav {
+  background-color: #ffffff;
+  height: 110px;
+  padding: 0px 6.66%;
+  align-items: center;
+  top: 0px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+
+  .btns-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .btn {
+      margin: 0 1rem;
+    }
+  }
+}
