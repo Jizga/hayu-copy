@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+
+  .card {
+    margin: 0 16px;
+
+    img {
+      max-height: 100px;
+      max-width: 200px;
+    }
+  }
+}
