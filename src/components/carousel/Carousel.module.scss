@@ -2,25 +2,25 @@
 
 .card-container {
   display: flex;
-  justify-content: space-between;
   position: relative;
 
   .card {
-    margin: 0 16px;
+    margin: 0 10px;
     cursor: pointer;
+    width: 250px;
 
     img {
       max-height: 170px;
       max-width: 250px;
-      height: 150px;
-      width: 220px;
+      height: 100%;
+      width: 100%;
       border-radius: 10px;
     }
 
     .card-resume {
       display: inline-block;
       position: relative;
-      width: 294px;
+      width: 100%;
 
       h4 {
         color: $black;
@@ -29,6 +29,7 @@
 
       .description {
         margin: 2% 0px 5%;
+        padding-right: 2%;
 
         span {
           color: $hayuGrayDark;
@@ -58,7 +59,7 @@
     font-size: 80px;
     cursor: pointer;
     z-index: 2;
-    top: 30%;
+    top: 20%;
     left: 5%;
     color: $hayuGray;
     opacity: 0;
@@ -69,7 +70,7 @@
     font-size: 80px;
     cursor: pointer;
     z-index: 2;
-    top: 30%;
+    top: 20%;
     right: 5%;
     color: $hayuGray;
     opacity: 0;

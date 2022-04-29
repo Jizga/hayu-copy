@@ -4,5 +4,5 @@ export const HAYU_LOGO =
   "https://www.hayu.com/assets/images/logoGrey.c71c38a7d1a31332c5dfdcac6638b0c9.svg";
 export const DEFAULT_IMAGEN =
   "https://cdn.pixabay.com/photo/2015/12/22/08/06/face-1103708__480.jpg";
-export const CARD_WIDTH = 250;
-export const CARD_WHITE_SPACE = 0.5;
+export const CARD_WIDTH = 270;
+export const CARD_WHITE_SPACE = 0;

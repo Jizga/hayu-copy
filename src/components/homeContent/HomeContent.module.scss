@@ -1,4 +1,4 @@
-@import '../../themes/GlobalTheme.scss';
+@import "../../themes/GlobalTheme.scss";
 
 .container {
   background-color: $hayuWhite;
@@ -8,10 +8,31 @@
   display: block;
   border-radius: 16px;
   min-height: 100%;
-  top: 450px;
+  top: 400px;
 
   .carousel {
     padding: 0.5rem;
     margin: 0.5rem;
+
+    .title {
+      padding-left: 1.5%;
+      margin-bottom: 15px;
+
+      .title-text {
+        color: rgb(43, 41, 50);
+        font-family: GothamUltra;
+        font-size: 1.3rem;
+        line-height: 20px;
+        text-transform: none;
+      }
+
+      .title-text-pink {
+        color: $hayuPink;
+        font-family: GothamUltra;
+        font-size: 1.3rem;
+        line-height: 20px;
+        text-transform: none;
+      }
+    }
   }
 }
