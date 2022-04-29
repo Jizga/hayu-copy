@@ -5,15 +5,51 @@
   justify-content: space-between;
   position: relative;
 
-
   .card {
     margin: 0 16px;
+    cursor: pointer;
 
     img {
       max-height: 170px;
       max-width: 250px;
       height: 150px;
       width: 220px;
+      border-radius: 10px;
+    }
+
+    .card-resume {
+      display: inline-block;
+      position: relative;
+      width: 294px;
+
+      h4 {
+        color: $black;
+        margin: 0.5rem 0;
+      }
+
+      .description {
+        margin: 2% 0px 5%;
+
+        span {
+          color: $hayuGrayDark;
+          font-family: SharpSansMedium;
+          font-size: 15px;
+          line-height: 15px;
+          margin: 0px;
+        }
+      }
+
+      .date {
+        span {
+          color: $hayuGray;
+          font-family: SharpSansBold;
+          font-size: 13px;
+          line-height: 14px;
+          text-transform: uppercase;
+          letter-spacing: 0.7px;
+          margin: 0px;
+        }
+      }
     }
   }
 

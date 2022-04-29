@@ -72,6 +72,17 @@ export default function Carousel({ items }) {
             }
             alt={item.title}
           />
+          <div className={styles["card-resume"]}>
+            <div>
+              <h4>{item.title}</h4>
+            </div>
+            <div className={styles.description}>
+              <span>{item.description}</span>
+            </div>
+            <div className={styles.date}>
+              <span>{item.pubDate}</span>
+            </div>
+          </div>
         </div>
       ))}
       <FontAwesomeIcon
