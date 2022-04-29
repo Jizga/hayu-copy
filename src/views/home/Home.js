@@ -10,8 +10,15 @@ export default function Home() {
   const dataModules = UseFetchDataModules();
 
   return (
-    <div className={styles.container}>
+    <div>
       <Navbar />
+      <div className={styles["imagen-home"]}>
+        <img
+          src={dataModules.data?.hero?.items[0]?.images["16x9"]}
+          alt={dataModules.data?.name}
+          className={styles.imagen}
+        />
+      </div>
       <HomeContent dataModules={dataModules} />
       <Footer />
     </div>

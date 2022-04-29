@@ -1,17 +1,23 @@
+@import "../../themes/GlobalTheme.scss";
+
 .container {
   height: auto;
   padding: 40px 20px;
-  background: url(https://cdn.one.accedo.tv/files/5ce816f023eec60010a1fbca)
-    center center / cover no-repeat rgb(255, 255, 255);
+  background: $footerBackgroundImage center center / cover no-repeat $hayuWhite;
   background-repeat: no-repeat;
   background-position: center center;
-  color: #fff;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "logo"
-    "socialAndMarket"
-    "navLinks"
-    "description";
-    display: grid;
+  color: $hayuWhite;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: auto;
+  // grid-template-areas:
+  //   "logo"
+  //   "socialAndMarket"
+  //   "navLinks"
+  //   "description";
+  //   display: grid;
+
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  margin-top: 500px;
 }

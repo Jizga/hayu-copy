@@ -2,7 +2,13 @@
 
 .container {
   background-color: $hayuWhite;
-  border-radius: 20px;
+  position: relative;
+  inset: 535px 0% auto;
+  z-index: 2;
+  display: block;
+  border-radius: 16px;
+  min-height: 100%;
+  top: 450px;
 
   .carousel {
     padding: 0.5rem;
