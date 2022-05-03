@@ -15,23 +15,21 @@
     margin: 0.5rem;
 
     .title {
-      padding-left: 1.5%;
+      padding-left: 1%;
       margin-bottom: 15px;
 
       .title-text {
-        color: rgb(43, 41, 50);
+        color: $black;
         font-family: GothamUltra;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         line-height: 20px;
-        text-transform: none;
       }
 
       .title-text-pink {
         color: $hayuPink;
         font-family: GothamUltra;
-        font-size: 1.3rem;
+        font-size: 1.8rem;
         line-height: 20px;
-        text-transform: none;
       }
     }
   }

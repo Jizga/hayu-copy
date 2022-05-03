@@ -6,7 +6,8 @@ import styles from "./Navbar.module.scss";
 
 export default function Navbar() {
   return (
-    <div className={styles.nav}>
+    // USE A TERNARY BY CHANGE THE STYLE AND LOGO WHEN I KNOW HOW TO GET THE HOME PAGE' SCROLL
+    <div className={styles['nav-init']}>
       <div>
         <img src={HAYU_LOGO} alt="hayu logo" />
       </div>
