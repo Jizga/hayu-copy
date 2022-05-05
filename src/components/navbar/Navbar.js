@@ -1,13 +1,16 @@
+import React from "react";
+import PropTypes from "prop-types";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import { HAYU_LOGO } from "../../consts/Consts";
 import styles from "./Navbar.module.scss";
 
-export default function Navbar() {
+export default function Navbar( ) {
+  // console.log("onScroll en Navbar : ", onScroll);
+
   return (
     // USE A TERNARY BY CHANGE THE STYLE AND LOGO WHEN I KNOW HOW TO GET THE HOME PAGE' SCROLL
-    <div className={styles['nav-init']}>
+    <div className={styles["nav-init"]}>
       <div>
         <img src={HAYU_LOGO} alt="hayu logo" />
       </div>
@@ -26,3 +29,7 @@ export default function Navbar() {
     </div>
   );
 }
+
+// Navbar.propTypes = {
+//   onScroll: PropTypes.bool,
+// };
